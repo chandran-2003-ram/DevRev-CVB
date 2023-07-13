@@ -74,7 +74,7 @@
 
               <!-- add a hospital form  -->
               <div class="tab-pane fade" id="v-pills-addhosp" role="tabpanel" aria-labelledby="v-pills-addhosp-tab">
-                <form action="/add_hospital" method="POST" name="add_hospital" id="add_hosp_form">
+                <formaction="add_hospital.html" method="POST" name="add_hospital" id="add_hosp_form">
                   <div class="form-group">
                       <label for="name">Name: </label>
                       <input type="text" class="form-control" id="name" name="name">
@@ -104,7 +104,7 @@
                     <input type="number" class="form-control" id="bed_cnt" name="bed_cnt">
                   </div>
 
-                  <button type="button" class="btn btn-primary" id="add-hosp-btn" formaction="/add_hospital" formmethod="POST">ADD HOSPITAL</button>
+                  <button type="button" class="btn btn-primary" id="add-hosp-btn" formaction="add_hospital.html" formmethod="POST">ADD HOSPITAL</button>
               </form>
               </div>
             </div>
@@ -133,7 +133,7 @@
                 <div class="col-md-6" style="background: #FAE7FD; box-shadow: 5px 5px 3px grey; padding: 2%;">
                   <div style="margin:2%;">
                     <h5>Add More Slots for Vaccination</h5>
-                    <form action="/add_slots" method="POST" name="add_slots">
+                    <formaction="add_hospital.html" method="POST" name="add_slots">
                         <div class="form-group">
                             <label for="date">Date: </label>
                             <input type="date" class="form-control" id="date" name="date">
